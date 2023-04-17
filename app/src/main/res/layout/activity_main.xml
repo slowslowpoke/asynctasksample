@@ -25,7 +25,8 @@
         android:layout_alignTop="@id/tv_time"
         android:layout_toEndOf="@id/tv_time"
         android:background="@android:drawable/editbox_background"
-        android:inputType="number" />
+        android:inputType="number"
+        android:autofillHints="12" />
 
     <Button
         android:id="@+id/btn_run"
